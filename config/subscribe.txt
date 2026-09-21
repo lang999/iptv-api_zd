@@ -5,8 +5,10 @@
 https://raw.githubusercontent.com/SPX372928/MyIPTV/master/%E5%B1%B1%E4%B8%9CSNM%E7%A7%BB%E5%8A%A8CDN%E7%89%88.txt
 # 山东移动 SNM 中兴平台 CDN 版
 https://raw.githubusercontent.com/SPX372928/MyIPTV/master/%E5%B1%B1%E4%B8%9CSNM%E7%A7%BB%E5%8A%A8%E4%B8%AD%E5%85%B4%E5%B9%B3%E5%8F%B0CDN%E7%89%88.txt
-# 山东 iqilu 各县电视台 CDN 版（山东本地台最全）
+# 山东 iqilu 各县电视台 CDN 版（山东本地台最全，含福山/招远/栖霞/莱州/莱阳/蓬莱/龙口/长岛）
 https://raw.githubusercontent.com/SPX372928/MyIPTV/master/%E5%B1%B1%E4%B8%9Ciqilu%E5%90%84%E5%8E%BF%E7%94%B5%E8%A7%86%E5%8F%B0CDN%E7%89%88.txt
+# 山东威海移动中兴平台 ip 版（含烟台/牟平/栖霞等烟台辖区台）
+https://raw.githubusercontent.com/SPX372928/MyIPTV/master/%E5%B1%B1%E4%B8%9CSNM%E5%A8%81%E6%B5%B7%E7%A7%BB%E5%8A%A8%E4%B8%AD%E5%85%B4%E5%B9%B3%E5%8F%B0ip%E7%89%88.txt
 # 山东三家组播（联通/电信/移动，rtp——仅在山东对应运营商内网/有转发时可用）
 https://raw.githubusercontent.com/xisohi/CHINA-IPTV/main/Multicast/shandong/unicom.txt
 https://raw.githubusercontent.com/xisohi/CHINA-IPTV/main/Multicast/shandong/telecom.txt
