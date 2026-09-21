@@ -1,12 +1,22 @@
-# 这是订阅源列表，每行一个订阅地址
-# 支持设置UA：https://xxx.com/subscribe.m3u UA="xxx"
-# This is a list of subscription sources, with one subscription address per line
-# Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
-
-
-
-
-
-[WHITELIST]
-# 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
-# This is the whitelist for subscription sources. Subscription sources in the whitelist will not participate in speed testing and will always be retained at the front of the results.
+# 订阅源列表 —— 每行一个地址。为“山东三网通 + 联通/电信/移动”定制
+# 说明：iptv-api 会拉取下列所有源，用 demo.txt 里的频道名去匹配、测速、择优填充。
+# ================= 山东专项（核心，优先级最高） =================
+# 山东移动 SNM 官方CDN（三网通用高清，含8M/1080P、4K，实测海外可连）
+https://raw.githubusercontent.com/SPX372928/MyIPTV/master/%E5%B1%B1%E4%B8%9CSNM%E7%A7%BB%E5%8A%A8CDN%E7%89%88.txt
+# 山东移动 SNM 中兴平台 CDN 版
+https://raw.githubusercontent.com/SPX372928/MyIPTV/master/%E5%B1%B1%E4%B8%9CSNM%E7%A7%BB%E5%8A%A8%E4%B8%AD%E5%85%B4%E5%B9%B3%E5%8F%B0CDN%E7%89%88.txt
+# 山东 iqilu 各县电视台 CDN 版（山东本地台最全）
+https://raw.githubusercontent.com/SPX372928/MyIPTV/master/%E5%B1%B1%E4%B8%9Ciqilu%E5%90%84%E5%8E%BF%E7%94%B5%E8%A7%86%E5%8F%B0CDN%E7%89%88.txt
+# 山东三家组播（联通/电信/移动，rtp——仅在山东对应运营商内网/有转发时可用）
+https://raw.githubusercontent.com/xisohi/CHINA-IPTV/main/Multicast/shandong/unicom.txt
+https://raw.githubusercontent.com/xisohi/CHINA-IPTV/main/Multicast/shandong/telecom.txt
+https://raw.githubusercontent.com/xisohi/CHINA-IPTV/main/Multicast/shandong/mobile.txt
+# ================= 全国移动CDN（补联通/电信缺口，三网通用） =================
+https://raw.githubusercontent.com/SPX372928/MyIPTV/master/%E5%8C%97%E4%BA%ACPLTV%E7%A7%BB%E5%8A%A8CDN%E7%89%88.txt
+https://raw.githubusercontent.com/SPX372928/MyIPTV/master/%E7%A6%8F%E5%BB%BAPLTV%E7%A7%BB%E5%8A%A8CDN%E7%89%88.txt
+https://raw.githubusercontent.com/SPX372928/MyIPTV/master/%E6%B1%9F%E8%A5%BFPLTV%E7%A7%BB%E5%8A%A8CDN%E7%89%88.txt
+# ================= 全国综合大源（央视/卫视兜底，三网通用） =================
+https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
+https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
+https://raw.githubusercontent.com/807080747/zv/refs/heads/main/sese.txt
+https://raw.githubusercontent.com/xisohi/CHINA-IPTV/main/Multicast/shandong/broadent.txt
